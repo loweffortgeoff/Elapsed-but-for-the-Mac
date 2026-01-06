@@ -13,5 +13,10 @@ struct Elaps_ing_App: App {
         WindowGroup {
             ContentView()
         }
+
+        MenuBarExtra("Elaps(ing)", systemImage: "clock.fill") {
+            MenuBarView()
+        }
+        .menuBarExtraStyle(.window)
     }
 }
